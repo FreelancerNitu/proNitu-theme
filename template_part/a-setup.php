@@ -20,7 +20,7 @@ $config = get_option('proNitu_options');
                     if ($user) :
 	               ?>
                 <div class="avatar">
-                  <img src=" <?php echo esc_url( get_avatar_url($user->ID) ); ?>" />
+                  <img src=" <?php echo esc_url( get_avatar_url($user->image) ); ?>" />
                 </div>
                 <?php endif; ?>
               </div>

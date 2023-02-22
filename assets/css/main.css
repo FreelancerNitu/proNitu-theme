@@ -711,6 +711,9 @@ select{
 	text-transform: capitalize;
 	margin-bottom: 0;
 }
+.post-view {
+	margin: 0 10px;
+}
 .wp-block-video {
 	border: 2px solid var(--pink);
 	padding: 10px;
@@ -1128,7 +1131,7 @@ select{
 
 .blog-single-wrap .header {
   margin-bottom: 32px;
-  background-color:  var(--white);
+  /* background-color:  var(--white); */
   border-radius: 6px;
   box-shadow: 0 2px 12px rgba(100, 95, 136, 0.2);
   overflow: hidden;

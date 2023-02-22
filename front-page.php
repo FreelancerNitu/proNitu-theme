@@ -46,6 +46,9 @@ get_header();
           <p class="custom-dt"><i class="fas fa-calendar-alt"></i>
             </i><?php echo the_time('D, j - F Y');?>
             <span>At</span> <i class="fas fa-clock"></i> <?php echo the_time('g:i a');?>
+            <span class="post-view"><i class=" fa fa-eye text-secondary me-2"></i>
+              <?php echo getPostViews(get_the_ID());?>
+            </span>
           </p>
           <?php echo the_post_thumbnail('projects'); ?>
           <?php the_excerpt(); ?>

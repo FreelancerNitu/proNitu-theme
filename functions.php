@@ -70,3 +70,9 @@ include_once('inc/proNitu_options.php');
 ====== Tgm Plugin Activation File =======
 =============================================*/ 
 include_once('inc/proNitu_activation.php');
+
+
+/*===========================================
+====== Post Views Count File =======
+=============================================*/ 
+include_once('inc/post_views.php');

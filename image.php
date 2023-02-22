@@ -4,7 +4,7 @@
 */
 get_header();
 ?>
-
+<!-- Image Section -->
 <section id="image-page">
   <div class=" container">
     <div class="row">
